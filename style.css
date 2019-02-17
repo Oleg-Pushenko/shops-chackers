@@ -1,0 +1,1333 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 320px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/*HEADER*/
+header {
+    background-color: #0E88F3;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    font-size: 2.5em;
+    color: white;
+    margin: 15px 0 0 50px;
+}
+.logo:hover {
+    color: #00F4CB;
+}
+header ul {
+    margin: 35px 0px 0px 115px;
+}
+header ul li {
+    display: inline;
+    margin: 0px 15px 0px 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size: 1em;
+}
+header ul li a:hover {
+    color: black;
+}
+.menu_mobile {
+    display: none;
+}
+
+
+/*HERO*/
+.hero {
+    background-color: #0E88F3;
+    height: 550px;
+}
+.info_drawing {
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    width: 50%;
+    margin-left: 50px;
+    color: white;
+}
+.info h1 {
+    font-weight: 200;
+    font-size: 2.8em;
+    margin-top: 100px;
+    width: 80%;
+    line-height: 45px;
+}
+.info p {
+    width: 85%;
+    opacity: 0.9;
+    font-size: 0.9em;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+}
+.info button {
+    background-color: #9ADDFC;
+    border: 0px;
+    border-radius: 5px;
+    width: 230px;
+    height: 60px;
+    color: #3C5F82;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+.info a {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.info a p {
+    width: 120px;
+    line-height: 10px;
+    opacity: 0.6;
+}
+.info a i {
+    padding-top: 12px;
+}
+.info a i:hover {
+    color: #00F4CB;
+}
+.drawing {
+    width: 50%;
+    background-image: url(images/Vector-Smart-Object.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 0px 170px;
+}
+.brand p {
+    color: white;
+    opacity: 0.7;
+    font-size: 0.8em;
+    width: 25%;
+}
+.two-group-brand {
+    margin-left: -100px;
+}
+.first-group-brand,
+.two-group-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.brand img {
+    width: 19%;
+    margin: 0px 15px;
+}
+
+
+/*GALERY-SHACKERS*/
+.galery_shackers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+}
+.left_scroll {
+    margin-left: 0px;
+}
+.right_scroll {
+    margin-right: 0px;
+}
+.left_scroll,
+.right_scroll {
+    border: 1px solid #C4E2FC;
+    background-color: white;
+    width: 70px;
+    height: 100%;
+}
+.left_scroll img,
+.right_scroll img {
+    width: 60%;
+}
+.all_galery_image {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    overflow: hidden;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transition: all ease 0.5s;
+}
+.shackers {
+    border: 1px solid #C4E2FC;
+    width: 300.2px;
+    text-align: center;
+}
+.shackers h4 {
+    color: #325479;
+    font-size: 1.5em;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+}
+.shackers img[alt="shacker-z"] {
+    width: 60%;
+}
+.shackers img[alt="shacker-h"] {
+    margin-top: 20px;
+    width: 30%;
+}
+
+
+/*FEATURES_LARGE*/
+.features_large {
+    display: flex;
+    flex-direction: column;
+    color: #3F5F82;
+    height: 1000px;
+}
+.supply_shackers {
+    display: flex;
+    justify-content: center;
+}
+.supply_shackers h2 {
+    text-align: center;
+    width: 45%;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 50px 0px;
+}
+.custom_drawing {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.custom_design {
+    padding: 0px 0px 0px 90px;
+    width: 55%;
+}
+.custom_design * {
+    line-height: 35px;
+    width: 90%;
+}
+.custom_design h3 {
+    font-size: 1.5em;
+}
+.custom_design p {
+    font-size: 1.2em;
+}
+.designed_driwing {
+    background-image: url(images/Vector1.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 85%;
+}
+.courier-door {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.courier {
+    background-image: url(images/Vector3.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 70%;
+}
+.courier-shakers {
+    padding: 0px 0px 0px 90px;
+    width: 55%;
+}
+.courier-shakers * {
+    line-height: 35px;
+    width: 75%;
+}
+.courier-shakers h3 {
+    font-size: 1.5em;
+}
+.courier-shakers p {
+    font-size: 1.2em;
+}
+
+
+/*TESTIMORIALS*/
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.clients_saying {
+    display: flex;
+    justify-content: center;
+}
+.clients_saying h2 {
+    color: #3F5F82;
+    text-align: center;
+    width: 45%;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 90px 0px 70px;
+}
+.all_rounded {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 45px;
+}
+.angelo_rounded,
+.spirios_rounded,
+.arnlaugur_rounded {
+    width: 40%;
+    margin: 0px 20px;
+}
+.think_angelo,
+.think_spirios,
+.think_arnlaugur {
+    display: flex;
+    flex-direction: row;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 25px 40px 0px 30px;
+}
+.think_angelo {
+    background-image: url(images/think1.png);
+    height: 230px;
+}
+.think_spirios {
+    background-image: url(images/think2.png);
+    height: 170px;
+}
+.think_arnlaugur {
+    background-image: url(images/think3.png);
+    height: 160px;
+}
+.think_angelo p:first-child,
+.think_spirios p:first-child,
+.think_arnlaugur p:first-child {
+    margin: 0px 5px 0px 0px;
+    color: #116ACE;
+    font-size: 3.7em;
+    font-weight: bold;
+}
+.think_angelo p:last-child,
+.think_spirios p:last-child,
+.think_arnlaugur p:last-child {
+    color: white;
+    line-height: 25px;
+}
+.angelo_rounded p strong,
+.spirios_rounded p strong,
+.arnlaugur_rounded p strong {
+    color: #315479;
+}
+.angelo_rounded p:nth-child(3),
+.spirios_rounded p:nth-child(3),
+.arnlaugur_rounded p:nth-child(3){
+    color: #75808E;
+    line-height: 0px;
+    margin-bottom: 25px;
+}
+
+
+/**SUPLY_SELECTION*/
+.suply_selection {
+    height: 360px;
+    background-color: #0F88F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.suply_selection h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 45px;
+    width: 60%;
+    text-align: center;
+}
+.suply_selection p {
+    opacity: 0.7;
+}
+.suply_selection button {
+    background-color: #9ADDFC;
+    border: 0px;
+    border-radius: 5px;
+    width: 230px;
+    height: 60px;
+    color: #3C5F82;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 25px;
+}
+
+
+/*FOOTER*/
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px 0px 100px;
+}
+.contact_social {
+    display: flex;
+    flex-direction: row;
+}
+.factory,
+.contact,
+.social {
+    width: 23%;
+    margin-right: 60px;
+}
+.factory h4,
+.contact h4,
+.social h4 {
+    color: #427ACC;
+}
+.factory p,
+.contact p,
+.social p {
+    line-height: 23px;
+}
+.contact p a {
+    text-decoration: none;
+    color: #3874CA;
+}
+.social a {
+    margin-right: 15px;
+}
+.social a img[alt="facebook-link"] {
+    width: 15px;
+}
+.social a img {
+    width: 23px;
+}
+.like_share {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.like_share button:nth-child(1) {
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: #4266B2;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.like_share button i {
+    margin-right: 5px;
+}
+.like_share button:nth-child(2) {
+    width: 50px;
+    height: 25px;
+    color: white;
+    background-color: #4266B2;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.like_share p {
+    line-height: 0px;
+}
+
+
+/*ADAPTATION*/
+@media screen and (max-width:1270px){
+    .brand {
+        padding: 40px 0px 0px 100px;
+    }
+    .brand p {
+        width: 35%;
+    }
+    .think_angelo {
+        background-image: url(images/think1.png);
+        height: 210px;
+    }
+    .think_spirios {
+        background-image: url(images/think2.png);
+        height: 150px;
+    }
+    .think_arnlaugur {
+        background-image: url(images/think3.png);
+        height: 140px;
+    }
+    .think_angelo p:first-child,
+    .think_spirios p:first-child,
+    .think_arnlaugur p:first-child {
+        font-size: 3em;
+    }
+    .think_angelo p:last-child,
+    .think_spirios p:last-child,
+    .think_arnlaugur p:last-child {
+        line-height: 20px;
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width:1090px){
+    /*HEADER*/
+    header ul {
+        margin: 25px 0px 0px 115px;
+    }
+    header ul li {
+        margin: 0px 25px 0px 25px;
+    }
+    header ul li a{
+        opacity: 0.8;
+        font-size: 1.3em;
+    }
+    /*HERO*/
+    .hero {
+        height: 770px;
+    }
+    .info h1 {
+        margin-top: 40px;
+        width: 85%;
+        line-height: 55px;
+    }
+    .info p {
+        font-size: 1.2em;
+    }
+    .info button {
+        width: 250px;
+        height: 70px;
+        font-size: 1.1em;
+        margin-top: 40px;
+    }
+    .info a {
+        font-size: 1em;
+        margin-left: 25px;
+    }
+    .info a p {
+        width: 185px;
+    }
+    .info a i {
+        padding-top: 17px;
+    }
+    .drawing {
+        background-size: 95%;
+        background-position: center left -20px;
+    }
+    .brand {
+        flex-direction: column;
+        padding: 40px 0px 0px 40px;
+    }
+    .brand p {
+        text-align: center;
+        font-size: 1.2em;
+        width: 80%;
+    }
+    .two-group-brand {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .brand img {
+        width: 20%;
+        margin: 0px 50px;
+    }
+    /*FEATURES_LARGE*/
+    .features_large {
+        height: 1000px;
+    }
+    .supply_shackers h2 {
+        width: 80%;
+    }
+    .custom_drawing {
+        height: 400px;
+    }
+    .custom_design {
+        padding: 0px 0px 0px 70px;
+        width: 70%;
+    }
+    .custom_design * {
+        line-height: 30px;
+    }
+    .custom_design h3 {
+        font-size: 1.5em;
+    }
+    .custom_design p {
+        font-size: 1.3em;
+    }
+    .designed_driwing {
+        background-size: 75%;
+    }
+    .courier-door {
+        height: 400px;
+    }
+    .courier {
+        background-size: 75%;
+    }
+    .courier-shakers {
+        padding: 0px 0px 0px 10px;
+        width: 65%;
+    }
+    .courier-shakers * {
+        line-height: 30px;
+    }
+    .courier-shakers h3 {
+        font-size: 1.5em;
+    }
+    .courier-shakers p {
+        font-size: 1.3em;
+    }
+    /*TESTIMORIALS*/
+    .testimonials {
+        height: 500px;
+    }
+    .clients_saying h2 {
+        width: 80%;
+        font-size: 2.1em;
+        margin: 20px 0px 50px;
+    }
+    .all_rounded {
+        padding: 0px 10px;
+    }
+    .angelo_rounded,
+    .spirios_rounded,
+    .arnlaugur_rounded {
+        margin: 0px 15px;
+    }
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        background-size: 115%;
+        padding: 10px 20px 0px 10px;
+    }
+    .think_angelo {
+        background-image: url(images/think1.png);
+        height: 240px;
+    }
+    .think_spirios {
+        background-image: url(images/think2.png);
+        height: 180px;
+    }
+    .think_arnlaugur {
+        background-image: url(images/think3.png);
+        height: 170px;
+    }
+    .think_angelo p:first-child,
+    .think_spirios p:first-child,
+    .think_arnlaugur p:first-child {
+        font-size: 3.5em;
+    }
+    .think_angelo p:last-child,
+    .think_spirios p:last-child,
+    .think_arnlaugur p:last-child {
+        font-size: 1.1em;
+    }
+    /**SUPLY_SELECTION*/
+    .suply_selection h2 {
+        width: 80%;
+    }
+    .suply_selection p {
+        font-size: 1.2em;
+        opacity: 0.8;
+    }
+    .suply_selection button {
+        width: 250px;
+        height: 70px;
+        font-size: 1.1em;
+    }
+    /*FOOTER*/
+    footer {
+        height: 320px;
+        padding: 30px 0px 0px 50px;
+    }
+    .factory,
+    .contact,
+    .social {
+        width: 25%;
+        margin-right: 60px;
+    }
+    .factory h4,
+    .contact h4,
+    .social h4 {
+        font-size: 1.3em;
+    }
+    .factory p,
+    .contact p,
+    .social p {
+        line-height: 23px;
+        font-size: 1.2em;
+    }
+    .social a {
+        margin-right: 20px;
+    }
+    .social a img[alt="facebook-link"] {
+        width: 17px;
+    }
+    .social a img {
+        width: 25px;
+    }
+    .like_share {
+        margin-top: 50px;
+    }
+    .like_share button:nth-child(1) {
+        width: 120px;
+        height: 35px;
+        font-size: 1em;
+        margin-right: 10px;
+    }
+    .like_share button i {
+        margin-right: 5px;
+    }
+    .like_share button:nth-child(2) {
+        width: 70px;
+        height: 35px;
+        margin-right: 25px;
+        font-size: 1em;
+    }
+    .like_share p {
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width:1020px){
+    /*HEADER*/
+    header ul {
+        margin: 25px 0px 0px 60px;
+    }
+    header ul li {
+        margin: 0px 20px 0px 20px;
+    }
+    /*HERO*/
+    .hero {
+        height: 800px;
+    }
+    .info h1 {
+        width: 90%;
+    }
+    .info p {
+        font-size: 1.3em;
+    }
+    .info button {
+        font-size: 1.2em;
+        margin-top: 30px;
+    }
+    .info a {
+        margin-left: 20px;
+    }
+    .info a p {
+        width: 200px;
+    }
+    .info a i {
+        padding-top: 17px;
+    }
+    .drawing {
+        background-size: 100%;
+        background-position: center left -30px;
+    }
+    .brand {
+        padding: 40px 0px 0px 40px;
+    }
+    .brand p {
+        font-size: 1.3em;
+    }
+    .two-group-brand {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .brand img {
+        width: 19%;
+    }
+    /*FEATURES_LARGE*/
+    .features_large {
+        height: 1000px;
+    }
+    .custom_design {
+        padding: 0px 0px 0px 50px;
+        width: 80%;
+    }
+    .designed_driwing {
+        background-size: 85%;
+    }
+    .courier {
+        background-size: 75%;
+    }
+    .courier-shakers {
+        padding: 0px 0px 0px 10px;
+        width: 80%;
+    }
+    /*TESTIMORIALS*/
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        background-size: 140%;
+        padding: 10px 20px 0px 10px;
+    }
+    .think_angelo p:first-child,
+    .think_spirios p:first-child,
+    .think_arnlaugur p:first-child {
+        font-size: 3.2em;
+    }
+    .think_angelo p:last-child,
+    .think_spirios p:last-child,
+    .think_arnlaugur p:last-child {
+        font-size: 1.1em;
+    }
+    /*FOOTER*/
+    footer {
+        height: 350px;
+        padding: 30px 0px 0px 50px;
+    }
+    .factory,
+    .contact,
+    .social {
+        width: 30%;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width:900px){
+    /*HEADER*/
+    header ul {
+        margin: 25px 0px 0px 40px;
+    }
+    header ul li {
+        margin: 0px 10px 0px 10px;
+    }
+    .hero {
+        height: 850px;
+    }
+    .designed_driwing {
+        background-position: center;
+    }
+    .courier {
+        background-position: center;
+    }    
+    .think_angelo p:last-child,
+    .think_spirios p:last-child,
+    .think_arnlaugur p:last-child {
+        font-size: 1em;
+    }
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        background-size: 160%;
+        padding: 10px 10px 0px 10px;
+    }
+    .think_angelo {
+        background-image: url(images/think1.png);
+        height: 230px;
+    }
+    /*FOOTER*/
+    footer {
+        height: 350px;
+        padding: 20px 0px 0px 50px;
+    }
+    .social a {
+        margin-right: 15px;
+    }
+    .social a img[alt="facebook-link"] {
+        width: 14px;
+    }
+    .social a img {
+        width: 23px;
+    }
+}
+@media screen and (max-width:800px){
+    /*TESTIMORIALS*/
+    .testimonials {
+        height: 1050px;
+    }
+    .clients_saying h2 {
+        width: 85%;
+        margin: 20px 0px 40px;
+    }
+    .all_rounded {
+        flex-direction: column;
+        padding: 0px 0px 0px 100px;
+    }
+    .angelo_rounded,
+    .spirios_rounded,
+    .arnlaugur_rounded {
+        width: 80%;
+        margin: 10px 0px;
+    }
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        background-size: 100%;
+        background-position: bottom;
+        padding: 20px 40px 0px 30px;
+    }
+    .think_angelo {
+        background-image: url(images/think1.png);
+        height: 210px;
+    }
+    .think_spirios {
+        background-image: url(images/think2.png);
+        height: 170px;
+    }
+    .think_arnlaugur {
+        background-image: url(images/think3.png);
+        height: 150px;
+    }
+    .think_angelo p:last-child,
+    .think_spirios p:last-child,
+    .think_arnlaugur p:last-child {
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width:720px){
+    header ul {
+        display: none;
+    }
+    .menu_mobile {
+        display: block;
+        margin: 25px 0px 0px 62%;
+    }
+    .menu_mobile div {
+        width: 50px;
+        height: 5px;
+        background-color: white;
+        margin-bottom: 7px;
+    }
+    /*HERO*/
+    .hero {
+        height: 1200px;
+    }
+    .info_drawing {
+        flex-direction: column;
+    }
+    .info {
+        width: 80%;
+        margin-left: 50px;
+    }
+    .info h1 {
+        font-size: 2.8em;
+        margin-top: 60px;
+        width: 90%;
+    }
+    .info p {
+        width: 90%;
+        font-size: 1.2em;
+        line-height: 27px;
+    }
+    .info button {
+        width: 250px;
+        height: 70px;
+        font-size: 1.1em;
+        margin-top: 50px;
+    }
+    .info a {
+        font-size: 1em;
+        margin-left: 20px;
+    }
+    .info a p {
+        width: 190px;
+    }
+    .info a i {
+        padding-top: 15px;
+    }
+    .drawing {
+        width: 90%;
+        height: 400px;
+        background-size: 90%;
+        margin: 0px;
+        background-position: right;
+    }
+    .brand {
+        flex-direction: column;
+        padding: 40px 0px 0px 0px;
+    }
+    .brand p {
+        text-align: center;
+        color: white;
+        opacity: 0.7;
+        font-size: 1.5em;
+        width: 80%;
+    }
+    .first-group-brand,
+    .two-group-brand {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 80px;
+    }
+    .brand img {
+        width: 25%;
+        margin: 0px 5px;
+    }
+    .two-group-brand {
+        margin-top: 20px;
+    }
+    
+    /*FEATURES_LARGE*/
+    .features_large {
+        height: 1700px;
+    }
+    .supply_shackers h2 {
+        width: 90%;
+    }
+    .custom_drawing {
+        flex-direction: column;
+        height: 800px;
+    }
+    .custom_design {
+        padding: 50px 0px 0px 30px;
+        width: 90%;
+    }
+    .custom_design p {
+        font-size: 1.5em;
+    }
+    .custom_design h3 {
+        font-size: 1.7em;
+    }
+    .custom_design * {
+        line-height: 30px;
+    }
+    .designed_driwing {
+        background-size: 90%;
+        background-position: right top;
+        width: 85%;
+        height: 350px;
+    }
+    .courier-door {
+        flex-direction: column;
+        height: 700px;
+    }
+    .courier {
+        background-size: 70%;
+        background-position: center top;
+        width: 90%;
+        height: 350px;
+    }
+    .courier-shakers {
+        padding: 0px 0px 0px 30px;
+        width: 90%;
+    }
+    .courier-shakers * {
+        line-height: 30px;
+        width: 90%;
+    }
+    .courier-shakers h3 {
+        font-size: 1.7em;
+    }
+    .courier-shakers p {
+        font-size: 1.5em;
+    }
+    /*TESTIMORIALS*/
+    .testimonials {
+        height: 1200px;
+    }
+    .all_rounded {
+        flex-direction: column;
+        padding: 0px 0px 0px 50px;
+    }
+    .angelo_rounded,
+    .spirios_rounded,
+    .arnlaugur_rounded {
+        width: 90%;
+    }
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        background-size: 100%;
+        background-position: bottom;
+        padding: 20px 40px 0px 30px;
+    }
+    .think_angelo {
+        height: 270px;
+    }
+    .think_spirios {
+        height: 200px;
+    }
+    .think_arnlaugur {
+        height: 180px;
+    }
+    .think_angelo p:last-child,
+    .think_spirios p:last-child,
+    .think_arnlaugur p:last-child {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+    .angelo_rounded p strong,
+    .spirios_rounded p strong,
+    .arnlaugur_rounded p strong {
+        font-size: 1.4em;
+    }
+    .angelo_rounded p:nth-child(3),
+    .spirios_rounded p:nth-child(3),
+    .arnlaugur_rounded p:nth-child(3){
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+    /**SUPLY_SELECTION*/
+    .suply_selection {
+        height: 450px;
+    }
+    .suply_selection h2 {
+        width: 90%;
+    }
+    .suply_selection p {
+        font-size: 1.2em;
+        opacity: 0.8;
+        text-align: center;
+    }
+    .suply_selection button {
+        width: 250px;
+        height: 70px;
+        font-size: 1.1em;
+    }
+    /*FOOTER*/
+    footer {
+        height: 750px;
+        padding: 30px 0px 0px 50px;
+    }
+    .contact_social {
+        display: flex;
+        flex-direction: column;
+    }
+    .factory,
+    .contact,
+    .social {
+        width: 90%;
+        margin-right: 0px;
+    }
+    .factory h4,
+    .contact h4,
+    .social h4 {
+        font-size: 1.6em;
+    }
+    .factory p,
+    .contact p,
+    .social p {
+        line-height: 23px;
+        font-weight: 100;
+        font-size: 1.3em;
+    }
+    .social a {
+        margin-right: 30px;
+    }
+    .social a img[alt="facebook-link"] {
+        width: 25px;
+    }
+    .social a img {
+        width: 43px;
+    }
+    .like_share {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .like_share button:nth-child(1) {
+        width: 140px;
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+    }
+    .like_share button i {
+        margin-right: 5px;
+    }
+    .like_share button:nth-child(2) {
+        width: 80px;
+        height: 40px;
+        font-size: 1.3em;
+        margin-bottom: 40px;
+    }
+    .like_share p {
+        line-height: 0px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width:570px){
+    .hero {
+        height: 1250px;
+    }
+    .custom_design {
+        padding: 0px 0px 0px 30px;
+        width: 90%;
+    }
+    footer {
+        height: 800px;
+    }
+}
+@media screen and (max-width:520px){
+    .menu_mobile {
+        display: block;
+        margin: 20px 0px 0px 50%;
+    }
+    .hero {
+        height: 1300px;
+    }
+    .info h1 {
+        font-size: 2.8em;
+        width: 95%;
+    }
+    .info p {
+        width: 95%;
+        font-size: 1.3em;
+    }
+    .info a p {
+        width: 200px;
+    }
+    .info a i {
+        padding-top: 18px;
+    }
+    .drawing {
+        height: 380px;
+        background-size: 95%;
+    }
+    .first-group-brand,
+    .two-group-brand {
+        margin-left: 30px;
+    }
+    .brand img {
+        width: 28%;
+        margin: 0px 5px;
+    }
+    /*TESTIMORIALS*/
+    .testimonials {
+        height: 1300px;
+    }
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        background-size: 130%;
+    }
+    .think_angelo {
+        height: 320px;
+    }
+    .think_spirios {
+        height: 220px;
+    }
+    .think_arnlaugur {
+        height: 200px;
+    }
+    .suply_selection p {
+        width: 95%;
+    }
+    footer {
+        height: 850px;
+    }
+    .like_share p {
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:470px){
+    /*TESTIMORIALS*/
+    .testimonials {
+        height: 1300px;
+    }
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        width: 95%;
+        background-size: 145%;
+        padding: 5px 20px 0px 10px;
+    }
+    .think_angelo {
+        height: 340px;
+    }
+    .think_spirios {
+        height: 230px;
+    }
+    .think_arnlaugur {
+        height: 220px;
+    }
+    .social a {
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width:414px){
+    .logo {
+        margin: 15px 0 0 10px;
+    }
+    .info {
+        margin-left: 20px;
+    }
+    .think_angelo {
+        width: 95%;
+        background-size: 150%;
+        padding: 10px 20px 0px 10px;
+    }
+}
+@media screen and (max-width:390px){
+    .drawing {
+        width: 90%;
+        height: 300px;
+        background-size: 90%;
+        margin: 0px;
+        background-position: right;
+    }
+    /*TESTIMORIALS*/
+    .testimonials {
+        height: 1250px;
+    }
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        width: 95%;
+        background-size: 145%;
+        padding: 5px 20px 0px 10px;
+        font-size: 0.8em;
+    }
+    .think_angelo {
+        height: 300px;
+    }
+    .think_spirios {
+        height: 220px;
+    }
+    .think_arnlaugur {
+        height: 200px;
+    }
+    footer {
+        height: 900px;
+    }
+    .social a {
+        margin-right: 10px;
+    }
+    .like_share p {
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:365px){
+    .think_angelo,
+    .think_spirios,
+    .think_arnlaugur {
+        width: 95%;
+        background-size: 145%;
+        padding: 5px 20px 0px 10px;
+        font-size: 0.7em;
+    }
+    .think_angelo {
+        height: 280px;
+    }
+}
+@media screen and (min-width:1400px){
+    .drawing {
+        background-size: 75%;
+    }
+}
+@media screen and (min-width:1500px){
+    .drawing {
+        background-size: 65%;
+    }
+}
+@media screen and (min-width:1700px){
+    .drawing {
+        width: 60%;
+        background-size: 55%;
+    }
+}
+@media screen and (min-width:1900px){
+    .drawing {
+        background-size: 50%;
+    }
+}
